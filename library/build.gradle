@@ -22,7 +22,9 @@ ext {
 }
 
 dependencies {
-    implementation "org.bouncycastle:bcprov-jdk15on:$bouncycastleVersion"
+    implementation 'com.madgag.spongycastle:bcpg-jdk15on:1.58.0.0'
+    implementation 'com.madgag.spongycastle:bcpkix-jdk15on:1.58.0.0'
+
     implementation "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
     implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
 

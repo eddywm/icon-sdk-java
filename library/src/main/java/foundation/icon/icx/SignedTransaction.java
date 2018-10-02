@@ -23,7 +23,7 @@ import foundation.icon.icx.transport.jsonrpc.RpcItem;
 import foundation.icon.icx.transport.jsonrpc.RpcObject;
 import foundation.icon.icx.transport.jsonrpc.RpcObject.Builder;
 import foundation.icon.icx.transport.jsonrpc.RpcValue;
-import org.bouncycastle.jcajce.provider.digest.SHA3;
+import org.spongycastle.jcajce.provider.digest.SHA3;
 
 import java.math.BigInteger;
 import java.util.Base64;

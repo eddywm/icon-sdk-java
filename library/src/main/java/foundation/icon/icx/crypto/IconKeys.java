@@ -3,7 +3,7 @@ package foundation.icon.icx.crypto;
 
 import foundation.icon.icx.data.Address;
 import foundation.icon.icx.data.Bytes;
-import org.bouncycastle.jcajce.provider.digest.SHA3;
+import org.spongycastle.jcajce.provider.digest.SHA3;
 import org.web3j.crypto.ECKeyPair;
 import org.web3j.crypto.Keys;
 import org.web3j.utils.Numeric;
